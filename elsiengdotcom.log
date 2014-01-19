@@ -1,0 +1,100 @@
+~
+~ revel! http://robfig.github.com/revel
+~
+INFO  2014/01/15 21:05:18 revel.go:292: Loaded module static
+INFO  2014/01/15 21:05:18 revel.go:292: Loaded module testrunner
+INFO  2014/01/15 21:05:18 run.go:57: Running elsiengdotcom (elsiengdotcom) in dev mode
+INFO  2014/01/15 21:05:18 harness.go:157: Listening on :3157
+ERROR 2014/01/15 21:09:58 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:12: undefined: ObjectType
+
+ERROR 2014/01/19 16:10:36 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:12: undefined: ObjectType
+
+ERROR 2014/01/19 16:13:35 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:5: imported and not used: "os"
+app/controllers/app.go:55: undefined: http
+app/controllers/app.go:65: use of .(type) outside type switch
+
+INFO  2014/01/19 16:14:05 revel.go:292: Loaded module static
+INFO  2014/01/19 16:14:05 revel.go:292: Loaded module testrunner
+INFO  2014/01/19 16:14:05 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+Elsie Ng
+0 Co-op Cabs Stringy string is here.
+0 hi!
+1 I am awesome!
+1 Backlog Backlog is awesome
+0 back log everything!
+1 blah blah blah
+ERROR 2014/01/19 16:27:43 template.go:295: Template compilation error (In App/Index.html around line 9):
+function "profile" not defined
+ERROR 2014/01/19 16:27:43 template.go:295: Template compilation error (In App/Index.html around line 9):
+function "profile" not defined
+ERROR 2014/01/19 16:28:28 template.go:295: Template compilation error (In App/Index.html around line 2):
+function "profile" not defined
+ERROR 2014/01/19 16:28:28 template.go:295: Template compilation error (In App/Index.html around line 2):
+function "profile" not defined
+ERROR 2014/01/19 16:31:45 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:90: undefined: profile
+
+ERROR 2014/01/19 16:31:59 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:90: undefined: profile
+
+ERROR 2014/01/19 16:32:53 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:72: undefined: c
+app/controllers/app.go:72: too many arguments to return
+
+ERROR 2014/01/19 16:33:32 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:82: too many arguments to return
+app/controllers/app.go:91: undefined: profile
+
+ERROR 2014/01/19 16:33:51 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:82: too many arguments to return
+app/controllers/app.go:91: undefined: profile
+
+ERROR 2014/01/19 16:35:06 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:84: undefined: profile
+app/controllers/app.go:84: too many arguments to return
+
+ERROR 2014/01/19 16:35:35 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:85: undefined: profile
+app/controllers/app.go:85: too many arguments to return
+
+INFO  2014/01/19 16:36:06 revel.go:292: Loaded module static
+INFO  2014/01/19 16:36:06 revel.go:292: Loaded module testrunner
+INFO  2014/01/19 16:36:06 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+0 Co-op Cabs Stringy string is here.
+0 hi!
+1 I am awesome!
+1 Backlog Backlog is awesome
+0 back log everything!
+1 blah blah blah
+ERROR 2014/01/19 16:36:06 controller.go:91: 0 RenderArg names found for 1 extra RenderArgs
+INFO  2014/01/19 16:36:53 revel.go:292: Loaded module static
+INFO  2014/01/19 16:36:53 revel.go:292: Loaded module testrunner
+INFO  2014/01/19 16:36:53 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/19 16:36:54 template.go:295: Template compilation error (In App/Index.html around line 9):
+function "profile" not defined
+ERROR 2014/01/19 16:36:54 template.go:295: Template compilation error (In App/Index.html around line 9):
+function "profile" not defined
+0 Co-op Cabs Stringy string is here.
+0 hi!
+1 I am awesome!
+1 Backlog Backlog is awesome
+0 back log everything!
+1 blah blah blah
+ERROR 2014/01/19 16:39:18 controller.go:91: 0 RenderArg names found for 1 extra RenderArgs
+ERROR 2014/01/19 16:39:26 template.go:295: Template compilation error (In App/Index.html around line 2):
+function "profile" not defined
+ERROR 2014/01/19 16:39:27 template.go:295: Template compilation error (In App/Index.html around line 2):
+function "profile" not defined
+ERROR 2014/01/19 16:39:54 template.go:295: Template compilation error (In App/Index.html around line 9):
+function "profile" not defined
+ERROR 2014/01/19 16:39:54 template.go:295: Template compilation error (In App/Index.html around line 9):
+function "profile" not defined

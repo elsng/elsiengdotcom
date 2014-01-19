@@ -1,0 +1,20 @@
+.hero-unit {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: white;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+.hero-text h1{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	color: #39393A;
+	line-height: 2em;
+}
+.hero-text p{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 1em;
+}

@@ -1,0 +1,64 @@
+
+	{
+	"profile": 
+		{
+			"name":"Elsie Ng",
+			"gist":"blahblah",
+			"current":"EventMobi",
+			"available": true
+		},
+    "projects": [
+        {
+            "id": 1,
+            "name": "Co-op Cabs",
+            "gist":"Stringy string is here.",
+            "picture": "http://placekitten.com/300/200",
+            "partner": "http://www.myimage.png",
+            "link": "http://www....",
+            "about": "....",
+            "role": "...",
+            "sections":[
+            	{
+	            	"header": "Log everything",
+	            	"text": "blah blah blah",
+	            	"image": "http://www..."
+            	},
+            	{
+	            	"header": "Integration",
+	            	"text": "blah blah blah",
+	            	"image": "http://www..."
+            	}
+            ]
+        }
+        {
+            "id": 2,
+            "name": "Backlog",
+            "gist":"backlogstringy",
+            "picture": "http://placekitten.com/300/200",
+            "partner": "http://www.myimage.png",
+            "brand-color": "#031942",
+            "button-text": "Get the app",
+            "link": "http://www....",
+            "about": "....",
+            "role": "...",
+            "sections":[
+            	{
+	            	"header": "Log everything",
+	            	"text": "blah blah blah",
+	            	"image": "http://www..."
+            	},
+            	{
+	            	"header": "Integration",
+	            	"text": "blah blah blah",
+	            	"image": "http://www..."
+            	},
+            	{
+	            	"header": "Integration",
+	            	"text": "blah blah blah",
+	            	"image": "http://www..."
+            	}
+            ]
+        }
+    ]
+
+}
