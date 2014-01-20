@@ -6,9 +6,21 @@
     <div class="row">
       <div class="hero-text">
         <h1>{{.title}}</h1>
-        <p>Designer, Developer, Game Maker</p>
-        <p>Toronto, Ontario</p>
+        <p>{{.data.Elsieng.Profile.Gist}}</p>
+        <p>{{.data.Elsieng.Profile.Location}}</p>
+        {{if .data.Elsieng.Profile.Available}}
+        <p>Elsie is available</p>
+        {{else}}
+        <p>Elsie is not available</p>
+        {{end}}
       </div>
+      {{range .data.Elsieng.Project}}
+      <h3>{{.Name}}</h3>
+      <p>
+	      {{.Gist}}<br />
+	      {{.Picture}}
+      </p>
+      {{end}}
     </div>
   </div>
 </header>

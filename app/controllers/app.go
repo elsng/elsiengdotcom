@@ -34,7 +34,14 @@ type Project_info struct {
 type Profile_info struct {
     Name    string
     Gist    string
+    Location string
     Current    string
+    Available	bool
+    Twitter	string
+    Github	string
+    Linkedin	string
+    Dribbble	string
+    Steam	string
 }
 
 type Section_info struct {
@@ -54,7 +61,7 @@ type App struct {
 }
 
 func (c App) Index() revel.Result {
-	url := "http://elsieng.com/sample.json"
+	url := "http://elsieng.com/data.json"
 
     res, err := http.Get(url)
     perror(err)
@@ -72,15 +79,14 @@ func (c App) Index() revel.Result {
         }
     }
     
-    profile := data.Elsieng.Profile
-    
     for i, project := range data.Elsieng.Project{
-        
+    
         fmt.Println(i, project.Name, project.Gist)
         
         for j, section := range project.Section{
         	fmt.Println(j, section.Text)
         }
     }
-	return c.Render(profile.Name)
+    
+    return c.Render(data)
 }
