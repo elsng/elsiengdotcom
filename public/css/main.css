@@ -1,20 +1,83 @@
-.hero-unit {
-  padding: 60px;
-  margin-bottom: 30px;
-  background-color: white;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+html{
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
-.hero-text h1{
+body{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	padding-top: 107px;
+	height: 350px;
+}
+.container{
+	padding: 100px;
+}
+h1{
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 48px;
 	color: #39393A;
-	line-height: 2em;
+	line-height: 1em;
 }
-.hero-text p{
+p{
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	font-size: 24px;
-	line-height: 1em;
+	line-height: 0.5em;
 }
+
+#project{
+	height: 415px;
+	color: white;
+	padding: 30px;
+}
+	.image{
+		width: 40%;
+		height: 300px;
+		float:left;
+		display: block;
+	}
+	.description{
+		width: 40%;
+		float:left;
+		padding-top: 75px;
+	}
+	#project h1{
+		font-size: 32px;
+		color: white;
+		font-weight: 100;
+		line-height: 1em;
+	}
+	#project h2{
+		font-size: 18px;
+		color:white;
+		font-weight: 100;
+	}
+	#project button{
+		background-color: transparent;
+		border-radius: 3px;
+		border: 1px solid white;
+		padding: 15px;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 100;
+		color: white;
+	}
+#footer{
+	font-size: 12px;
+	font-weight: 100;
+	text-align: center;
+	color: #ADBBC1;
+	line-height: 1.3em;
+	padding-bottom: 30px;
+}
+	#footer a{
+		color:#ADBBC1;
+	}
+	#footer hr{
+		height: 1px;
+		background-color: #F1F1F1;
+		border: none;
+		width: 90%;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}

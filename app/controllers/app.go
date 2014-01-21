@@ -24,7 +24,8 @@ type Project_info struct {
     Gist	string
     Picture	string
     Partner	string
-    Style	string
+    Button	string
+    Brand	string
     Link	string
     About	string
     Role	string
@@ -61,6 +62,41 @@ type App struct {
 }
 
 func (c App) Index() revel.Result {
+    url := "http://elsieng.com/data.json"
+
+    res, err := http.Get(url)
+    perror(err)
+    defer res.Body.Close()
+    body, err := ioutil.ReadAll(res.Body)
+    perror(err)
+
+    var data Elsie
+    err = json.Unmarshal(body, &data)
+    if err != nil {
+        fmt.Printf("%T\n%s\n%#v\n",err, err, err)
+        switch v := err.(type){
+            case *json.SyntaxError:
+                fmt.Println(string(body[v.Offset-40:v.Offset]))
+        }
+    }
+    
+    //for i, project := range data.Elsieng.Project{	
+        //for j, section := range project.Section{
+        	//fmt.Println(j, section.Text)
+        //}
+    //}
+    return c.Render(data)
+}
+
+type currentProject struct{
+	Gist	string
+}
+
+func getCurrentProject() {
+	
+}
+
+func (c App) Project(id int) revel.Result {
 	url := "http://elsieng.com/data.json"
 
     res, err := http.Get(url)
@@ -79,14 +115,14 @@ func (c App) Index() revel.Result {
         }
     }
     
-    for i, project := range data.Elsieng.Project{
+	cp := currentProject{}
     
-        fmt.Println(i, project.Name, project.Gist)
-        
-        for j, section := range project.Section{
-        	fmt.Println(j, section.Text)
+    for i, project := range data.Elsieng.Project{
+    	
+        if (i == id){
+        	cp.Gist = project.Gist
         }
     }
     
-    return c.Render(data)
+	return c.Render(cp)
 }

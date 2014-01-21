@@ -1,28 +1,32 @@
 {{set . "title" "The Compendium of Elsie Ng"}}
 {{template "header.html" .}}
-
-<header class="hero-unit">
-  <div class="container">
-    <div class="row">
-      <div class="hero-text">
-        <h1>{{.title}}</h1>
-        <p>{{.data.Elsieng.Profile.Gist}}</p>
-        <p>{{.data.Elsieng.Profile.Location}}</p>
-        {{if .data.Elsieng.Profile.Available}}
-        <p>Elsie is available</p>
-        {{else}}
-        <p>Elsie is not available</p>
-        {{end}}
-      </div>
-      {{range .data.Elsieng.Project}}
-      <h3>{{.Name}}</h3>
-      <p>
-	      {{.Gist}}<br />
-	      {{.Picture}}
-      </p>
-      {{end}}
-    </div>
-  </div>
-</header>
+		<div id="header" class="container">
+			<h1>{{.title}}</h1>
+			<p>{{.data.Elsieng.Profile.Gist}}</p>
+			<p>{{.data.Elsieng.Profile.Location}}</p>
+			<p>Elsie is
+			{{if .data.Elsieng.Profile.Available}}
+				 available
+			{{else}}
+				not available
+			{{end}}
+			for work</p>
+			<p>
+				<a href="{{.data.Elsieng.Profile.Twitter}}">Twitter</a>
+			</p>
+		</div>
+		{{range .data.Elsieng.Project}}
+			<div id="project" style="background-color:{{.Brand}}">
+				<div class="image">
+				</div>
+				<div class="description">
+					<h1>{{.Name}}</h1>
+					<h2>{{.Gist}}</h2>
+					<form action="/App/Project" method="GET">
+						<button type="submit" value="{{.Id}}" name="id">{{.Button}}</button>
+					</form>
+				</div>
+			</div>
+		{{end}}
 
 {{template "footer.html" .}}
