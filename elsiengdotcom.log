@@ -2401,3 +2401,126 @@ Go to /@tests to run the tests.
 Listening on port 39794...
 WARN  2014/01/21 14:57:04 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
 WARN  2014/01/21 14:57:27 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+ERROR 2014/01/21 14:59:26 results.go:179: Template Execution Error (in app/index.html): no such template "degul.html"
+2014/01/21 14:59:26 server.go:625: http: multiple response.WriteHeader calls
+INFO  2014/01/21 15:07:22 revel.go:292: Loaded module static
+INFO  2014/01/21 15:07:22 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 15:07:22 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 15:07:22 panic.go:29: Get /public/data.json: unsupported protocol scheme ""
+/home/elsieng/gocode/src/elsiengdotcom/app/controllers/app.go:56 (0x80a6d19)
+	perror: panic(err)
+/home/elsieng/gocode/src/elsiengdotcom/app/controllers/app.go:103 (0x80a7282)
+	App.Project: perror(err)
+/home/elsieng/gocode/src/elsiengdotcom/app/controllers/app.go:1 (0x80a8283)
+	(*App).Project: package controllers
+/usr/local/go/src/pkg/runtime/asm_386.s:359 (0x8069b55)
+/usr/local/go/src/pkg/reflect/value.go:474 (0x8075028)
+/usr/local/go/src/pkg/reflect/value.go:345 (0x80744a4)
+/home/elsieng/gocode/src/github.com/robfig/revel/invoker.go:36 (0x808daa4)
+	com/robfig/revel.ActionInvoker: resultValue = methodValue.Call(methodArgs)[0]
+/home/elsieng/gocode/src/github.com/robfig/revel/compress.go:45 (0x8085869)
+	com/robfig/revel.CompressFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/intercept.go:103 (0x808ce47)
+	com/robfig/revel.InterceptorFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/i18n.go:156 (0x808c6f3)
+	com/robfig/revel.I18nFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/validation.go:191 (0x809b398)
+	com/robfig/revel.ValidationFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/flash.go:37 (0x808a451)
+	com/robfig/revel.FlashFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/session.go:130 (0x8096fa2)
+	com/robfig/revel.SessionFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/params.go:133 (0x808ef18)
+	com/robfig/revel.ParamsFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/filterconfig.go:208 (0x808a193)
+	com/robfig/revel.FilterConfiguringFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/router.go:442 (0x8095918)
+	com/robfig/revel.RouterFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/panic.go:15 (0x808deee)
+	com/robfig/revel.PanicFilter: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/watcher.go:160 (0x809ef5b)
+	com/robfig/revel.func.029: fc[0](c, fc[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/server.go:39 (0x8095dd0)
+	com/robfig/revel.handleInternal: Filters[0](c, Filters[1:])
+/home/elsieng/gocode/src/github.com/robfig/revel/server.go:27 (0x8095ba8)
+	com/robfig/revel.handle: handleInternal(w, r, nil)
+/usr/local/go/src/pkg/net/http/server.go:1220 (0x8102b7e)
+/usr/local/go/src/pkg/net/http/server.go:1597 (0x81041f3)
+/usr/local/go/src/pkg/net/http/server.go:1167 (0x8102871)
+/usr/local/go/src/pkg/runtime/proc.c:1394 (0x805df60)
+INFO  2014/01/21 15:08:18 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 15:08:18 revel.go:292: Loaded module static
+INFO  2014/01/21 15:08:18 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 15:34:26 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:132: project.Catchphrase undefined (type Project_info has no field or method Catchphrase)
+
+INFO  2014/01/21 15:35:10 revel.go:292: Loaded module static
+INFO  2014/01/21 15:35:10 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 15:35:10 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 15:38:17 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:137: section is not a type
+
+ERROR 2014/01/21 15:38:38 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:136: j declared and not used
+
+ERROR 2014/01/21 15:40:34 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:136: j declared and not used
+
+ERROR 2014/01/21 15:41:29 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:136: j declared and not used
+
+INFO  2014/01/21 15:54:16 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 15:54:16 revel.go:292: Loaded module static
+INFO  2014/01/21 15:54:16 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 15:54:16 results.go:179: Template Execution Error (in app/project.html): 1: executing "app/project.html" at <.cp.Section>: Section is not a field of struct type interface {}
+2014/01/21 15:54:16 server.go:625: http: multiple response.WriteHeader calls
+ERROR 2014/01/21 15:54:51 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:139: cp.Section undefined (type currentProject has no field or method Section)
+
+ERROR 2014/01/21 15:55:05 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:139: invalid operation: cp.Sections += cpsection (mismatched types []projectSection and projectSection)
+
+ERROR 2014/01/21 15:55:27 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:138: cpsection.Header undefined (type []projectSection has no field or method Header)
+app/controllers/app.go:139: invalid operation: cp.Sections += cpsection (operator + not defined on slice)
+
+ERROR 2014/01/21 15:55:46 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:139: invalid operation: cp.Sections += cpsection (operator + not defined on struct)
+
+INFO  2014/01/21 15:55:57 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 15:55:57 revel.go:292: Loaded module static
+INFO  2014/01/21 15:55:57 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 15:55:57 results.go:179: Template Execution Error (in app/project.html): 1: executing "app/project.html" at <.cp.Section>: Section is not a field of struct type interface {}
+2014/01/21 15:55:57 server.go:625: http: multiple response.WriteHeader calls
+ERROR 2014/01/21 15:56:09 results.go:179: Template Execution Error (in app/project.html): 1: executing "app/project.html" at <.cp.Sections>: range can't iterate over <controllers.projectSection Value>
+2014/01/21 15:56:09 server.go:625: http: multiple response.WriteHeader calls
+ERROR 2014/01/21 16:04:49 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:136: missing len argument to make([]projectSection)
+
+INFO  2014/01/21 16:05:00 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 16:05:00 revel.go:292: Loaded module static
+INFO  2014/01/21 16:05:00 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 16:05:00 results.go:179: Template Execution Error (in app/project.html): 1: executing "app/project.html" at <.cp.Sections>: range can't iterate over <controllers.projectSection Value>
+2014/01/21 16:05:00 server.go:625: http: multiple response.WriteHeader calls
+ERROR 2014/01/21 16:05:22 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:145: cannot use cpsections (type []projectSection) as type projectSection in assignment
+
+INFO  2014/01/21 16:05:38 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 16:05:38 revel.go:292: Loaded module static
+INFO  2014/01/21 16:05:38 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 16:05:38 results.go:179: Template Execution Error (in app/project.html): : executing "app/project.html" at <.cp.Sections.Header>: cp is not a field of struct type controllers.projectSection
+2014/01/21 16:05:38 server.go:625: http: multiple response.WriteHeader calls

@@ -22,11 +22,13 @@ type Project_info struct {
     Id	int
     Name	string
     Gist	string
+    Catchphrase	string
     Picture	string
     Partner	string
     Button	string
     Brand	string
     Link	string
+    Gettext	string
     About	string
     Role	string
     Section []Section_info
@@ -89,15 +91,23 @@ func (c App) Index() revel.Result {
 }
 
 type currentProject struct{
-	Gist	string
+	Name	string
+	Catchphrase	string
+	Partner	string
+	Link	string
+	Gettext	string
+	About	string
+	Sections	[]projectSection
 }
 
-func getCurrentProject() {
-	
+type projectSection struct{
+	Header	string
+	Text	string
+	Image	string
 }
 
 func (c App) Project(id int) revel.Result {
-	url := "http://elsieng.com/data.json"
+	url := "http://www.elsieng.com/data.json"
 
     res, err := http.Get(url)
     perror(err)
@@ -120,7 +130,19 @@ func (c App) Project(id int) revel.Result {
     for i, project := range data.Elsieng.Project{
     	
         if (i == id){
-        	cp.Gist = project.Gist
+        	cp.Name = project.Name
+        	cp.Catchphrase = project.Catchphrase
+        	
+        	cpsections := make([]projectSection, 0)
+        	
+        	for j, section := range project.Section{
+        		cpsection := projectSection{}
+        		cpsection.Header = section.Header
+        		cpsections = append(cpsections, cpsection)
+        		j++
+			}
+			
+			cp.Sections = cpsections
         }
     }
     

@@ -1,9 +1,15 @@
 {{set . "title" ""}}
 {{template "header.html" .}}
 
-{{ .Gist }}
-<h1>Hello </h1>
+<h1>{{ .cp.Name }}</h1>
+{{ .cp.Catchphrase}}
 
+<p>
+{{range .cp.Sections}}
+	<p>
+	{{ .Header}}
+	</p>
+{{end}}
+</p>
 <a href="/">Back to form</a>
-
 {{template "footer.html" .}}
