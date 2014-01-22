@@ -1,21 +1,23 @@
 {{set . "title" "The Compendium of Elsie Ng"}}
 {{template "header.html" .}}
+</head>
+<body>
 		<div id="header" class="container">
 			<h1>{{.title}}</h1>
-			<p>{{.data.Elsieng.Profile.Gist}}</p>
-			<p>{{.data.Elsieng.Profile.Location}}</p>
+			<p>{{.myProfile.Gist}}</p>
+			<p>{{.myProfile.Location}}</p>
 			<p>Elsie is
-			{{if .data.Elsieng.Profile.Available}}
+			{{if .myProfile.Available}}
 				 available
 			{{else}}
 				not available
 			{{end}}
 			for work</p>
 			<p>
-				<a href="{{.data.Elsieng.Profile.Twitter}}">Twitter</a>
+				<a href="{{.myProfile.Twitter}}">Twitter</a>
 			</p>
 		</div>
-		{{range .data.Elsieng.Project}}
+		{{range .thelist}}
 			<div id="project" style="background-color:{{.Brand}}">
 				<div class="image">
 				</div>

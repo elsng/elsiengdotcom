@@ -1,15 +1,43 @@
-{{set . "title" ""}}
+{{set . "title" .cp.Name}}
 {{template "header.html" .}}
+</head>
+<body>
+<div id="projectContainer">
+	<div id="header" style="background-color:{{ .cp.Brand}}">
+		<p>{{ .cp.Name }}</p>
+		{{ if eq .cp.Partner ""}}
+		{{else}}
+			with <img src="{{ .cp.Partner}}" />
+		{{end}}
+		<h1>{{ .cp.Catchphrase}}</h1>
+		{{ if eq .cp.Link ""}}
+		{{else}}
+			<a href="{{ .cp.Link}}"><button>{{ .cp.Gettext}}</button></a>
+		{{end}}
+	</div>
 
-<h1>{{ .cp.Name }}</h1>
-{{ .cp.Catchphrase}}
+	<div id="about">
+		{{ .cp.About}}
+	</div>
 
-<p>
-{{range .cp.Sections}}
-	<p>
-	{{ .Header}}
-	</p>
-{{end}}
-</p>
-<a href="/">Back to form</a>
+	<ul>
+	{{range .cp.Sections}}
+	<div id="section">
+		<div class="container">
+			<div id="text" style="float: {{ .Align}}">
+				<h3>{{ .Header}}</h3>
+				{{ .Text}}<br />
+				{{ if eq .Href ""}}
+				{{else}}
+					<a href="{{ .Href}}"><button>{{ .Hreftext}}</button></a>
+				{{end}}
+			</div>
+		</div>
+	</div>
+	{{end}}
+	</ul>
+</div>
+<div id="moreProjects">
+<a href="/"><button>See more Projects</button></a>
+</div>
 {{template "footer.html" .}}

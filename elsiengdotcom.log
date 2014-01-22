@@ -2524,3 +2524,215 @@ Go to /@tests to run the tests.
 Listening on port 39794...
 ERROR 2014/01/21 16:05:38 results.go:179: Template Execution Error (in app/project.html): : executing "app/project.html" at <.cp.Sections.Header>: cp is not a field of struct type controllers.projectSection
 2014/01/21 16:05:38 server.go:625: http: multiple response.WriteHeader calls
+INFO  2014/01/21 16:19:18 revel.go:292: Loaded module static
+INFO  2014/01/21 16:19:18 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 16:19:18 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+INFO  2014/01/21 16:23:28 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 16:23:28 revel.go:292: Loaded module static
+INFO  2014/01/21 16:23:28 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+INFO  2014/01/21 16:26:04 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 16:26:04 revel.go:292: Loaded module static
+INFO  2014/01/21 16:26:04 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+WARN  2014/01/21 16:26:37 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 16:27:02 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 16:29:13 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 16:30:23 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 16:30:52 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 16:30:54 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+ERROR 2014/01/21 17:24:10 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:150: section.Href undefined (type Section_info has no field or method Href)
+
+INFO  2014/01/21 17:24:30 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 17:24:30 revel.go:292: Loaded module static
+INFO  2014/01/21 17:24:30 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 17:26:59 template.go:295: Template compilation error (In App/Project.html around line 6):
+unexpected "!" in operand; missing space?
+ERROR 2014/01/21 17:27:08 template.go:295: Template compilation error (In App/Project.html around line 6):
+unexpected "!" in operand; missing space?
+ERROR 2014/01/21 17:27:09 template.go:295: Template compilation error (In App/Project.html around line 6):
+unexpected "!" in operand; missing space?
+ERROR 2014/01/21 18:25:13 results.go:179: Template Execution Error (in app/project.html): 1: executing "app/project.html" at <.cp.Partner>: Partner has arguments but cannot be invoked as function
+2014/01/21 18:25:13 server.go:625: http: multiple response.WriteHeader calls
+ERROR 2014/01/21 18:25:23 template.go:295: Template compilation error (In App/Project.html around line 6):
+function "is" not defined
+ERROR 2014/01/21 18:26:43 results.go:179: Template Execution Error (in app/project.html): : executing "app/project.html" at <eq>: wrong number of args for eq: want 2 got 3
+2014/01/21 18:26:43 server.go:625: http: multiple response.WriteHeader calls
+INFO  2014/01/21 18:34:43 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 18:34:43 revel.go:292: Loaded module static
+INFO  2014/01/21 18:34:43 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+WARN  2014/01/21 19:42:21 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:42:49 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:42:55 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:43:14 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:46:17 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:46:35 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:46:59 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:47:08 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:47:31 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:48:17 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:53:08 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:55:44 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:56:00 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:56:13 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:58:47 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:58:48 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:58:53 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:59:08 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:59:38 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 19:59:39 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:00:15 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:00:26 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:00:42 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:00:44 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:01:35 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:01:51 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:02:47 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:03:00 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:03:11 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:03:12 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+ERROR 2014/01/21 20:05:47 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:151: cannot use j (type int) as type string in assignment
+
+INFO  2014/01/21 20:06:00 revel.go:292: Loaded module static
+INFO  2014/01/21 20:06:00 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 20:06:00 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+WARN  2014/01/21 20:06:00 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:09:31 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/style.css: no such file or directory 
+WARN  2014/01/21 20:09:31 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:09:50 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:10:12 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:10:13 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:10:26 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:10:42 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:10:49 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:11:11 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:13:06 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:13:19 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:13:20 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:16:25 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:16:36 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:17:37 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:18:09 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:19:16 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+ERROR 2014/01/21 20:19:45 results.go:179: Template Execution Error (in app/project.html): 5: executing "app/project.html" at <.Name>: Name is not a field of struct type controllers.projectSection
+2014/01/21 20:19:45 server.go:625: http: multiple response.WriteHeader calls
+WARN  2014/01/21 20:19:45 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:19:53 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:21:13 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+ERROR 2014/01/21 20:22:44 template.go:295: Template compilation error (In App/Project.html around line 27):
+unexpected "%" in operand; missing space?
+WARN  2014/01/21 20:24:07 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+ERROR 2014/01/21 20:26:13 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:158: section.Align undefined (type Section_info has no field or method Align)
+
+INFO  2014/01/21 20:26:24 revel.go:292: Loaded module static
+INFO  2014/01/21 20:26:24 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 20:26:24 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+WARN  2014/01/21 20:26:25 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:26:44 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:29:01 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:29:21 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:30:16 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:31:45 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:31:46 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:31:56 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:32:35 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:32:41 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:32:46 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:33:25 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:35:57 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+INFO  2014/01/21 20:38:34 revel.go:292: Loaded module static
+INFO  2014/01/21 20:38:34 revel.go:292: Loaded module testrunner
+INFO  2014/01/21 20:38:34 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/21 20:38:34 results.go:179: Template Execution Error (in app/project.html): 7: executing "app/project.html" at <.Link>: Link is not a field of struct type controllers.projectSection
+2014/01/21 20:38:34 server.go:625: http: multiple response.WriteHeader calls
+WARN  2014/01/21 20:38:34 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:38:47 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:40:45 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:41:05 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 20:54:07 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/1/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/1/style.css: no such file or directory 
+WARN  2014/01/21 21:11:26 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+WARN  2014/01/21 21:15:01 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/01/21 21:15:32 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+WARN  2014/01/21 21:15:39 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+WARN  2014/01/21 21:15:52 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+WARN  2014/01/21 21:16:33 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+WARN  2014/01/21 21:21:22 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css: no such file or directory 
+WARN  2014/01/21 21:46:25 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/1/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/1/style.css: no such file or directory 
+WARN  2014/01/22 01:12:23 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css: no such file or directory 
+WARN  2014/01/22 01:57:47 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/4/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/4/style.css: no such file or directory 
+WARN  2014/01/22 02:00:58 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/4/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/4/style.css: no such file or directory 
+WARN  2014/01/22 02:01:10 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/4/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/4/style.css: no such file or directory 
+WARN  2014/01/22 02:03:26 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css: no such file or directory 
+WARN  2014/01/22 02:03:36 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+WARN  2014/01/22 02:04:18 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+ERROR 2014/01/22 02:12:25 template.go:295: Template compilation error (In App/Project.html around line 14):
+unexpected <.> in operand; missing space?
+WARN  2014/01/22 02:15:17 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:15:43 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:16:13 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:18:05 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:18:22 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:18:30 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:18:34 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:18:43 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:19:14 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:19:17 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:19:37 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
+WARN  2014/01/22 02:19:45 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/5/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/5/style.css: no such file or directory 
+WARN  2014/01/22 02:19:52 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/3/style.css: no such file or directory 
+WARN  2014/01/22 02:20:28 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/2/style.css: no such file or directory 
+ERROR 2014/01/22 02:31:26 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:108: project.Image undefined (type Project_info has no field or method Image)
+app/controllers/app.go:111: cannot use projectItem (type projectItem) as type projectSection in append
+
+ERROR 2014/01/22 02:32:08 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:111: cannot use projectItem (type projectItem) as type projectSection in append
+
+ERROR 2014/01/22 02:32:28 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:103: i declared and not used
+
+INFO  2014/01/22 02:32:36 revel.go:292: Loaded module testrunner
+INFO  2014/01/22 02:32:36 revel.go:292: Loaded module static
+INFO  2014/01/22 02:32:36 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+ERROR 2014/01/22 02:33:26 results.go:179: Template Execution Error (in app/index.html): 8: executing "app/index.html" at <.thelist.projectItem>: can't evaluate field projectItem in type interface {}
+2014/01/22 02:33:26 server.go:625: http: multiple response.WriteHeader calls
+INFO  2014/01/22 02:38:27 revel.go:292: Loaded module testrunner
+INFO  2014/01/22 02:38:27 revel.go:292: Loaded module static
+INFO  2014/01/22 02:38:27 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+INFO  2014/01/22 02:40:24 revel.go:292: Loaded module static
+INFO  2014/01/22 02:40:24 revel.go:292: Loaded module testrunner
+INFO  2014/01/22 02:40:24 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+INFO  2014/01/22 02:41:07 revel.go:292: Loaded module testrunner
+INFO  2014/01/22 02:41:07 revel.go:292: Loaded module static
+INFO  2014/01/22 02:41:07 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+INFO  2014/01/22 03:02:55 revel.go:292: Loaded module static
+INFO  2014/01/22 03:02:55 revel.go:292: Loaded module testrunner
+INFO  2014/01/22 03:02:55 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 39794...
+WARN  2014/01/22 03:03:20 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/6/style.css: no such file or directory 
