@@ -4,15 +4,15 @@
 <body>
 		<div id="header" class="container">
 			<h1>{{.title}}</h1>
-			<p>{{.myProfile.Gist}}</p>
-			<p>{{.myProfile.Location}}</p>
-			<p>Elsie is
+			<h2>{{.myProfile.Gist}}</h2>
+			<h2>{{.myProfile.Location}}</h2>
+			<h2>Elsie is
 			{{if .myProfile.Available}}
 				 available
 			{{else}}
 				not available
 			{{end}}
-			for work</p>
+			for work</h2>
 			<p>
 				<a href="{{.myProfile.Twitter}}">Twitter</a>
 			</p>
@@ -23,7 +23,7 @@
 				</div>
 				<div class="description">
 					<h1>{{.Name}}</h1>
-					<h2>{{.Gist}}</h2>
+					<p>{{.Gist}}</p>
 					<form action="/App/Project" method="GET">
 						<button type="submit" value="{{.Id}}" name="id">{{.Button}}</button>
 					</form>

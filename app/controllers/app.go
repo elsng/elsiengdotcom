@@ -50,7 +50,8 @@ type Profile_info struct {
 type Section_info struct {
 	Header	string
 	Text	string
-	Image	string
+	TopImage	string
+	BottomImage	string
 	Href	string
 	Hreftext	string
 	Align	string
@@ -162,9 +163,11 @@ type currentProject struct{
 
 type projectSection struct{
 	Id	int
+	ProjectId	int
 	Header	string
 	Text	string
-	Image	string
+	TopImage	string
+	BottomImage	string
 	Href	string
 	Hreftext	string
 	Align	string
@@ -210,7 +213,8 @@ func (c App) Project(id int) revel.Result {
         		cpsection.Id = j
         		cpsection.Header = section.Header
         		cpsection.Text = section.Text
-        		cpsection.Image = section.Image
+        		cpsection.TopImage = section.TopImage
+        		cpsection.BottomImage = section.BottomImage
         		cpsection.Href = section.Href
         		cpsection.Hreftext = section.Hreftext
         		cpsection.Align = section.Align

@@ -1,13 +1,14 @@
 {{set . "title" .cp.Name}}
+{{set . "projectID" .cp.Id}}
 {{template "header.html" .}}
 </head>
 <body>
 <div id="projectContainer">
 	<div id="header" style="background-color:{{ .cp.Brand}}">
-		<p>{{ .cp.Name }}</p>
+		<h2>{{ .cp.Name }}</h2>
 		{{ if eq .cp.Partner ""}}
 		{{else}}
-			with <img src="{{ .cp.Partner}}" />
+			with <img src="/public/img/partners/{{ .cp.Partner}}" />
 		{{end}}
 		<h1>{{ .cp.Catchphrase}}</h1>
 		{{ if eq .cp.Link ""}}
@@ -22,17 +23,18 @@
 
 	<ul>
 	{{range .cp.Sections}}
-	<div id="section">
-		<div class="container">
-			<div id="text" style="float: {{ .Align}}">
-				<h3>{{ .Header}}</h3>
+	<div id="section" class="{{.Id}}">
+		<div id="text" class="container" style="float: {{ .Align}}">
+			<h3>{{ .Header}}</h3>
 				{{ .Text}}<br />
 				{{ if eq .Href ""}}
 				{{else}}
 					<a href="{{ .Href}}"><button>{{ .Hreftext}}</button></a>
 				{{end}}
-			</div>
 		</div>
+		<div id="image" style=''>
+			<img src="/public/projects/{{.TopImage}}" />
+		</div>	
 	</div>
 	{{end}}
 	</ul>

@@ -6,8 +6,7 @@ body{
 	padding: 0;
 }
 #header{
-	padding-top: 107px;
-	height: 350px;
+	padding: 10%;
 }
 .container{
 	padding: 60px 100px;
@@ -16,23 +15,23 @@ h1{
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 48px;
 	color: #39393A;
-	line-height: 1em;
+	line-height: 1.3em;
 }
 h2{
-	font-size: 18px;
-	color:white;
+	font-size: 24px;
+	color:#606060;
 	font-weight: 100;
+	line-height: 0.5em;
 }
 h3{
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 100;
 	line-height: 0;
 }
 p{
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	font-size: 24px;
-	line-height: 1em;
+	font-weight: 100;
+	font-size: 20px;
 }
 ul{
 	padding:0;
@@ -79,8 +78,7 @@ button{
 	font-weight: 100;
 }
 	#projectContainer #header{
-		padding: 107px 10% 0 10%;
-		height: 350px;
+		padding: 4% 10% 6% 10%;
 		text-align: center;
 		color: white;
 	}
@@ -88,6 +86,13 @@ button{
 		font-weight: 100;
 		color: white;
 	}
+	#projectContainer #header h2{
+		font-weight: 100;
+		color: white;
+	}
+		#projectContainer #header img{
+			margin-left: 10px;
+		}
 	#projectContainer button{
 		background-color: transparent;
 		border-radius: 3px;
@@ -110,14 +115,30 @@ button{
 		width: 100%;
 		min-height: 408px;
 		padding: 0;
+		float:left;
+		clear:both;
+		
 	}
-		#section:nth-child(odd){
+		#section:nth-child(even){
 			background-color: #F9F9F9;
 		}
 		
 		#text{
 			width:336px;
+			font-size: 15px;
+			z-index: 2;
+			position: relative;
 		}
+		#image{
+			width: auto;
+			height: 408px;
+			text-align:center;
+			overflow-y: hidden;
+			overflow-x: hidden;
+		}
+			#image img{
+				position: relative;
+			}
 		#section button{
 			border: 1px solid #ADBBC1;
 			padding: 10px 15px;
@@ -126,7 +147,6 @@ button{
 		}
 	#moreProjects{
 		text-align:center;
-		padding: 10px 0 25px 0;
 	}
 	#moreProjects button{
 		background-color: rgba(255,255,255,0.5);
@@ -138,7 +158,7 @@ button{
 		font-weight: 100;
 		color: #ADBBC1;
 		width: 200px;
-		margin: 0 auto;
+		margin: 25px auto;
 	}
 #footer{
 	font-size: 12px;
@@ -157,7 +177,7 @@ button{
 		height: 1px;
 		background-color: #F1F1F1;
 		border: none;
-		width: 90%;
+		width: 95%;
 		margin-top: 0;
 		margin-bottom: 30px;
 	}
