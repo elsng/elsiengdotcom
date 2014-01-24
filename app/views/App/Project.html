@@ -1,6 +1,7 @@
 {{set . "title" .cp.Name}}
 {{set . "projectID" .cp.Id}}
 {{template "header.html" .}}
+<link rel="stylesheet" type="text/css" href="/public/css/{{.projectID}}.css">
 </head>
 <body>
 <div id="projectContainer">
@@ -23,8 +24,16 @@
 
 	<ul>
 	{{range .cp.Sections}}
-	<div id="section" class="{{.Id}}">
-		<div id="text" class="container" style="float: {{ .Align}}">
+	<div id="section{{.Id}}" class="section">
+		<div id="text" class="container" style='
+			{{if eq .Align "right"}}
+				float:right;
+			{{else if eq .Align "left"}}
+				float:left;
+			{{else if eq .Align "center"}}
+				margin: 0 auto;
+				text-align: center;
+			{{end}}'>
 			<h3>{{ .Header}}</h3>
 				{{ .Text}}<br />
 				{{ if eq .Href ""}}
@@ -32,8 +41,17 @@
 					<a href="{{ .Href}}"><button>{{ .Hreftext}}</button></a>
 				{{end}}
 		</div>
-		<div id="image" style='background: url("/public/projects/{{.BottomImage}}") no-repeat'>
-			<img src="/public/projects/{{.TopImage}}" />
+		<div id="bottomimage">
+			{{if eq .BottomImage ""}}
+			{{else}}
+				<img src="/public/projects/{{.BottomImage}}" />
+			{{end}}
+			<div id="topimage" data-scrollreveal>
+				{{if eq .TopImage ""}}
+				{{else}}
+					<img src="/public/projects/{{.TopImage}}" />
+				{{end}}
+			</div>
 		</div>	
 	</div>
 	{{end}}

@@ -1,0 +1,40 @@
+#section0 #topimage{
+	top: 60px !important;
+	left: 300px !important;
+	-webkit-transition: left ease-out 1s;
+		-moz-transition: left ease-out 1s;
+		-o-transition: left ease-out 1s;
+		transition: left ease-out 1s;
+}
+	#section0 #topimage:hover{
+		left: 400px !important;
+		-webkit-transition: left ease-out 0.5s;
+		-moz-transition: left ease-out 0.5s;
+		-o-transition: left ease-out 0.5s;
+		transition: left ease-out 0.5s;
+		
+	}
+#section0 #bottomimage{
+
+}
+
+#section1 #topimage{
+	top: 0;
+	left: 0;
+	opacity: 1;
+	-webkit-transition: opacity ease-out 1s;
+	-moz-transition: opacity ease-out 1s;
+	-o-transition: opacity ease-out 1s;
+	transition: opacity ease-out 1s;
+	
+}
+	#section1 #topimage:hover{
+		opacity: 0;
+		-webkit-transition: opacity ease-out 1s;
+		-moz-transition: opacity ease-out 1s;
+		-o-transition: opacity ease-out 1s;
+		transition: opacity ease-out 1s;
+	}
+#section1 #bottomimage{
+	height: 400px;
+}

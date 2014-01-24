@@ -111,15 +111,15 @@ button{
 		color: #717171;
 		font-size: 18px;
 	}
-	#section{
+	.section{
 		width: 100%;
-		min-height: 408px;
+		min-height: 300px;
 		padding: 0;
 		float:left;
 		clear:both;
 		
 	}
-		#section:nth-child(even){
+		.section:nth-child(even){
 			background-color: #F9F9F9;
 		}
 		
@@ -129,16 +129,24 @@ button{
 			z-index: 2;
 			position: relative;
 		}
-		#image{
+		#bottomimage{
+			width: auto;
+			height: 500px;
+			text-align:center;
+			overflow-y: hidden;
+			overflow-x: hidden;
+			position:relative;
+			z-index: 1;
+		}
+		#topimage{
 			width: auto;
 			height: 408px;
 			text-align:center;
 			overflow-y: hidden;
 			overflow-x: hidden;
+			position:absolute;
+			z-index: 2;
 		}
-			#image img{
-				position: relative;
-			}
 		#section button{
 			border: 1px solid #ADBBC1;
 			padding: 10px 15px;
