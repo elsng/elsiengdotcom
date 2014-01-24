@@ -2879,3 +2879,27 @@ Go to /@tests to run the tests.
 Listening on port 39794...
 ERROR 2014/01/23 03:31:10 results.go:179: Template Execution Error (in app/project.html): 2: executing "app/project.html" at <.Image>: Image is not a field of struct type controllers.projectSection
 2014/01/23 03:31:10 server.go:625: http: multiple response.WriteHeader calls
+WARN  2014/01/23 03:33:55 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:34:07 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:45:52 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:45:52 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:45:53 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent@2x.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent@2x.png: no such file or directory 
+WARN  2014/01/23 03:45:53 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:49:13 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:49:13 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:49:13 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent@2x.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent@2x.png: no such file or directory 
+WARN  2014/01/23 03:49:13 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:50:08 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png: no such file or directory 
+WARN  2014/01/23 03:50:08 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:50:08 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png: no such file or directory 
+WARN  2014/01/23 03:50:08 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:50:08 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:52:44 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/23 03:52:44 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/24 01:27:29 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png: no such file or directory 
+WARN  2014/01/24 01:27:42 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/img/partners/nascent.png: no such file or directory 
+WARN  2014/01/24 01:27:42 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/24 01:27:51 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/24 01:27:51 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/projects
+WARN  2014/01/24 01:27:53 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/0-3b.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/0-3b.png: no such file or directory 
+WARN  2014/01/24 01:28:14 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/projects/0-3b.png): stat /home/elsieng/gocode/src/elsiengdotcom/public/projects/0-3b.png: no such file or directory 
