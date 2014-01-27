@@ -28,3 +28,12 @@
 #section2 #bottomimage{
 	height:300px;
 }
+
+@media	(max-width: 640px){
+	#section0 #topimage{
+		left: 0;
+	}
+	#section1 #topimage{
+		left: -100px;
+	}
+}

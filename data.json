@@ -1,0 +1,234 @@
+{
+ "elsieng": {
+	 "profile": {
+        "name":"Elsie Ng",
+	    "gist":"Designer, Developer, Game Maker",
+	    "location":"Toronto, ON",
+	    "current":"EventMobi",
+	    "available": true,
+	    "twitter":"http://twitter.com/OMGElsie",
+	    "github":"http://github.com/elsng",
+	    "linkedin":"http://www.linkedin.com/pub/elsie-ng/1b/220/120",
+	    "dribbble":"http://dribbble.com/OMGElsie",
+	    "steam":"http://steamcommunity.com/id/OMGElsie"
+        },
+     "project": [
+     	{
+			"id": 0,
+			"name": "e•co",
+			"gist":"My thesis project in university, a study of communal environmental awareness.",
+			"catchphrase":"Form habits with e•co.",
+			"picture": "",
+			"partner": "",
+			"brand": "#85B64D",
+			"button":"View the e•co Case Study",
+			"link": "#",
+			"gettext":"See the demo (coming soon!)",
+			"about": "As part of my undergraduate thesis, I created a social network tasked with forming good, economically friendly habits as a collective.",
+			"section":[
+            	{
+	            	"header": "Eco-friendly. Gamified.",
+	            	"text": "The social network was a study on the effect of groups of people taking part in sustainable actions and the habits they end up forming. Eco-friendly actions and their impact are clearly communicated to users.",
+	            	"topimage": "0-1a.png",
+	            	"bottomimage":"0-1b.png",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "left"
+            	},
+            	{
+	            	"header": "Platforms in context.",
+	            	"text": "Most of the actions performed in the app are meant to be immediate in context. In addition, I included a desktop portion of the app that would provide additional information for each of the actions performed in the app.",
+	            	"topimage": "0-2a.png",
+	            	"bottomimage":"0-2b.png",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "right"
+            	},
+            	{
+	            	"header": "Community experiences.",
+	            	"text": "Once users have completed a few actions, they are encouraged to share their experiences with the rest of the e•co community.",
+	            	"topimage": "0-3a.png",
+	            	"bottomimage":"",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "left"
+            	}
+            ]
+		},
+		{
+			"id": 1,
+			"name": "AP Mobile",
+			"gist":"Reading the news on tablet is now easier than ever with AP Mobile for Windows 8.",
+			"catchphrase":"Reading the news on tablet is now easier than ever with AP Mobile for Windows 8.",
+			"picture": "",
+			"partner": "nascent.png",
+			"brand": "#464646",
+			"button":"View the AP Mobile Case Study",
+			"link": "http://apps.microsoft.com/windows/en-us/app/associated-press/6e3d6f49-aa32-4f7e-ab26-50f9ce74b84d",
+			"gettext":"Get the App",
+			"about": "The Associated Press wanted an app for their Windows 8 users to read and consume news articles the same way they would on their other devices.",
+			"section":[
+            	{
+	            	"header": "The Grid.",
+	            	"text": "Windows 8 complies to a particular grid, and AP Mobile was going to be no different. We differentiate AP Mobile's design from the rigid structure by blowing out the grid.  Content is arranged dynamically in the grid by popularity.",
+	            	"topimage": "1-1a.png",
+	            	"bottomimage":"",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "center"
+            	},
+            	{
+	            	"header":"Designed for multiple devices.",
+	            	"text": "Designing for Windows 8 includes tablet and desktop and mouse, so AP Mobile for Windows 8 adopts for all of that.",
+	            	"topimage": "1-2a.png",
+	            	"bottomimage":"",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "right"
+            	}
+            ]
+		},
+		{
+			"id": 2,
+			"name": "Co-Op Cabs",
+			"gist":"I worked on the experience of one of Toronto's Largest cab company's iOS app.",
+			"catchphrase":"Redefining taxi cab pick ups",
+			"picture": "",
+			"partner": "nascent.png",
+			"brand": "#F8AF1C",
+			"button":"View the Co-Op Cabs Case Study",
+			"link": "https://itunes.apple.com/ca/app/co-op-cabs/id683558637",
+			"gettext":"Get the App",
+			"about": "No more waiting in the cold for a cab in Toronto! Catching a Co-op cab has never been easier. Available for iOS, cab seekers can easily schedulea ride immediately or for later for a seamless pickup experience.",
+			"section":[
+            	{
+	            	"header": "Simplifying Pickup.",
+	            	"text": "We spent many hours on the part of the experience that meant the most to the users: getting picked up. Since the app allows for pickups immediately and in the future, the information had to be clear. The answer was to make it dead obvious when the user has a ride scheduled via the contextually coloured 'pick up bar' at the top of the interface and in the pin colour.",
+	            	"topimage": "2-1a.png",
+	            	"bottomimage":"2-1b.png",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "left"
+            	},
+            	{
+	            	"header": "Lively Interface.",
+	            	"text": "A big part of the experience involved lively movement of the interface. As the designer, I was also tasked with developing the user interface and its animations in Xcode.",
+	            	"topimage": "2-2a.png",
+	            	"bottomimage":"2-2b.png",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "center"
+            	}
+            ]
+		},
+		{
+			"id": 3,
+			"name": "Backlog",
+			"gist":"A simple iOS app that helps you track which games you have yet to finish in your back log.",
+			"catchphrase":"Keep track. Knock 'em down.",
+			"picture": "",
+			"partner": "",
+			"brand": "#476375",
+			"button":"View the Backlog Case Study",
+			"link": "#",
+			"gettext":"Get it on the App Store (coming soon!)",
+			"about": "Backlog is an iOS app made under Space Llama Studios with the purpose of providing people like me a way to track unfinished games. I am the sole creator of this app, from design to development. It was my first app designed for iOS7 and my first ever solo development experience!",
+			"section":[
+            	{
+	            	"header": "Bee-yoo-ti-ful.",
+	            	"text": "Backlog is designed and developed for iOS7. So, of course, it makes use of iOS7 technology and design patterns to provide a fantastic experience for the latest version of iOS. Backlog pulls in artwork and blurs it on the fly! The interface is built programatically with some screens relying on Xcode's autolayout.",
+	            	"topimage": "3-1a.png",
+	            	"bottomimage":"3-1b.png",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "left"
+            	},
+            	{
+	            	"header": "Integrated.",
+	            	"text": "Backlog is integrated with one of the largest games databases out there to ensure that any game can be added to your Backlog. It pulls beautiful art from these databases using FDRequestClient and can also suggest you games to add from your Steam games list.",
+	            	"topimage": "3-2a.png",
+	            	"bottomimage":"3-2b.png",
+	            	"href": "https://github.com/reidmain/FDRequestClient",
+	            	"hreftext": "See FDRequestClient",
+	            	"align": "left"
+            	}
+            ]
+		},
+		{
+			"id": 4,
+			"name": "Space Llama Studios",
+			"gist":"In 2013 I co-founded a design and development studio that creates useful products and fun games.",
+			"catchphrase":"Llamas make great apps and games",
+			"picture": "http://placekitten.com/300/200",
+			"partner": "",
+			"brand": "#4C4E50",
+			"button":"Learn About Space Llama Studios",
+			"link": "http://www.spacellamastudios.com",
+			"gettext":"Go to Space Llama Studios",
+			"about": "Sometimes, you just gotta start a side project.",
+			"section":[
+            	{
+	            	"header": "Coming soon.",
+	            	"text": "Space Llama Studios is a small two-person studio that makes apps and games in their spare time. Both founders currently hold full-time positions elsewhere, so Space Llama Studios will soon be coming out with great things. Just give us a bit of time.",
+	            	"topimage": "4-1a.png",
+	            	"bottomimage":"",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "left"
+            	},
+            	{
+	            	"header": "Find the Llama!",
+	            	"text": "We hide our logo in all of our products! See if you can find them all!",
+	            	"topimage": "4-2a.png",
+	            	"bottomimage":"",
+	            	"href": "",
+	            	"hreftext": "",
+	            	"align": "right"
+            	}
+            ]
+		},
+        {
+			"id": 5,
+			"name": "Anniversary Game",
+			"gist":"To celebrate my one-year anniversary I made a game for my boyfriend in 30 days.",
+			"catchphrase":"Do what you love for who you love.",
+			"picture": "http://placekitten.com/300/200",
+			"partner": "",
+			"brand": "#3375AC",
+			"button":"View the Anniversary Game Case Study",
+			"link": "http://blog.elsieng.com/anniversary-game/",
+			"gettext":"See the Blog Post",
+			"about": "When I remembered that my one-year anniversary with Reid Main was a month away, I thought of the perfect gift that he would enjoy, and that I would enjoy making: a game.",
+			"section":[
+            	{
+	            	"header": "Simple Gameplay",
+	            	"text": "The game uses the iPad's gyroscope to move Reidskie while his girlfriend follows him. Collect the hearts to gain temporary powerups. Simply avoid the BoBos and shoot them down. Kill enough to save Sweetie!",
+	            	"topimage": "5-1.png",
+	            	"bottomimage":"",
+	            	"href": "https://www.youtube.com/watch?v=SrtaUG6Ghnk",
+	            	"hreftext": "Watch a video of the gameplay",
+	            	"align": "left"
+            	},
+            	{
+	            	"header": "Pixel Art",
+	            	"text": "Every pixel is hand-crafted by yours truly. I used Pixen to draw each from in the animations.",
+	            	"topimage": "5-2.png",
+	            	"bottomimage":"",
+	            	"href": "http://pixenapp.com/",
+	            	"hreftext": "Get Pixen",
+	            	"align": "right"
+            	},
+            	{
+	            	"header": "Lua.",
+	            	"text": "The entire game was written in Lua and uses a variety of game programming techniques to create an interesting experience.",
+	            	"topimage": "5-3.png",
+	            	"bottomimage":"",
+	            	"href": "http://github.com/elsng/ReidGame",
+	            	"hreftext": "See the code",
+	            	"align": "left"
+            	}
+            ]
+		}
+    ]
+ }
+}

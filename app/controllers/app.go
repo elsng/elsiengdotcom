@@ -94,7 +94,7 @@ type projectItem struct {
 }
 
 func (c App) Index() revel.Result {
-    url := "http://elsieng.com/data.json"
+    url := "http://dev.elsieng.com/data.json"
 
     res, err := http.Get(url)
     perror(err)
@@ -174,7 +174,7 @@ type projectSection struct{
 }
 
 func (c App) Project(id int) revel.Result {
-	url := "http://www.elsieng.com/data.json"
+	url := "http://dev.elsieng.com/data.json"
 
     res, err := http.Get(url)
     perror(err)

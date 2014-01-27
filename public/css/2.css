@@ -2,10 +2,6 @@
 	top:-530px;
 	left:30px;
 }
-		#section0 #topimage:hover{
-		}
-
-
 #section1 #topimage{
 	top: -400px;
 	left:10px;
@@ -14,5 +10,24 @@
 	#section1 #topimage:hover{
 		-webkit-transform: scale(1.1);
 	}
-#section1 #bottomimage{
+#section1 #text{
+	width:500px;
+}
+
+@media	(max-width: 640px){
+	#section0 #text{
+		width: 300px;
+	}
+	#section1 #text{
+		width:300px;
+	}
+	#section0 #topimage{
+		left: 0;
+	}
+	#section0 #topimage img{
+		margin-left: 500px;
+	}
+	#section0 #bottomimage img{
+		margin-left: -100px;
+	}
 }

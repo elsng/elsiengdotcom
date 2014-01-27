@@ -10,3 +10,12 @@
 #section1 #text{
 	width: 500px;
 }
+
+@media	(max-width: 640px){
+	#section0 #text{
+		width: 300px;
+	}
+	#section1 #text{
+		width: 300px;
+	}
+}

@@ -14,9 +14,6 @@
 		transition: left ease-out 0.5s;
 		
 	}
-#section0 #bottomimage{
-
-}
 
 #section1 #topimage{
 	top: -190%;
@@ -37,4 +34,7 @@
 	}
 #section1 #bottomimage{
 	height: 400px;
+}
+
+@media	(max-width: 640px){
 }
