@@ -36,9 +36,9 @@
 			{{end}}'>
 			<h3>{{ .Header}}</h3>
 				{{ .Text}}<br />
-				{{ if eq .Href ""}}
+				{{if eq .Href ""}}
 				{{else}}
-					<a href="{{ .Href}}"><button>{{ .Hreftext}}</button></a>
+					<a href="{{ .Href}}"><button id="hrefButton">{{ .Hreftext}}</button></a>
 				{{end}}
 		</div>
 		<div id="bottomimage">

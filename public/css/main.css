@@ -1,4 +1,4 @@
-html{
+ html{
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 body{
@@ -15,7 +15,7 @@ h1{
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 48px;
 	color: #39393A;
-	line-height: 1.3em;
+	line-height: 1em;
 }
 h2{
 	font-size: 24px;
@@ -45,20 +45,58 @@ button{
 	border-radius: 3px;
 	cursor:pointer;
 }
+.social a img{
+	opacity:0.25;
+	margin: 50px 40px 0 0;
+	-webkit-transition: opacity ease-out 0.3s;
+	-moz-transition: opacity ease-out 0.3s;
+	-o-transition: opacity ease-out 0.3s;
+	transition: opacity ease-out 0.3s;
+	
+}
+	.social a img:hover{
+		opacity:1;
+		-webkit-transition: opacity ease-out 0.3s;
+		-moz-transition: opacity ease-out 0.3s;
+		-o-transition: opacity ease-out 0.3s;
+		transition: opacity ease-out 0.3s;
+	}
+#blockButton{
+	border: 1px solid #ADBBC1;
+	color: #ADBBC1;
+	background-color: transparent;
+	padding: 10px 25px;
+}	
+#hrefButton{
+	border: 1px solid #ADBBC1;
+	color: #ADBBC1;
+	margin-top: 15px;
+	background-color: transparent;
+}
 #project{
 	height: 415px;
+	width: 100%;
 	color: white;
 	padding: 30px;
+	float:left;
 }
 	.image{
-		width: 40%;
+		width: 300px;
 		height: 300px;
 		float:left;
-		display: block;
+		margin-top:5%;
+		margin-left: 100px;
 	}
+		.image img{
+			display: block;
+			vertical-align: middle;
+			margin: auto;
+		}
 	.description{
-		width: 40%;
+		width: 500px;
 		float:left;
+		margin-left:150px;
+		display: inline-block;
 		padding-top: 75px;
 	}
 	#project h1{
@@ -93,7 +131,7 @@ button{
 		#projectContainer #header img{
 			margin-left: 10px;
 		}
-	#projectContainer button{
+	#projectContainer #header button{
 		background-color: transparent;
 		border-radius: 3px;
 		border: 1px solid white;
@@ -117,7 +155,6 @@ button{
 		padding: 0;
 		float:left;
 		clear:both;
-		
 	}
 		.section:nth-child(even){
 			background-color: #F9F9F9;
@@ -131,7 +168,8 @@ button{
 		}
 		#bottomimage{
 			width: auto;
-			height: 500px;
+			height: auto;
+			max-height: 500px;
 			text-align:center;
 			overflow-y: hidden;
 			overflow-x: hidden;
@@ -139,12 +177,12 @@ button{
 			z-index: 1;
 		}
 		#topimage{
-			width: auto;
-			height: 408px;
+			width:auto;
+			height: auto;
 			text-align:center;
 			overflow-y: hidden;
 			overflow-x: hidden;
-			position:absolute;
+			position:relative;
 			z-index: 2;
 		}
 		#section button{

@@ -2,10 +2,16 @@
 {{template "header.html" .}}
 </head>
 <body>
-		<div id="header" class="container">
+	
+	<div id="header" class="container">
+		
 			<h1>{{.title}}</h1>
 			<h2>{{.myProfile.Gist}}</h2>
 			<h2>{{.myProfile.Location}}</h2>
+			<a href="http://blog.elsieng.com"><button id="blockButton">Blog</button></a>
+			<a href="http://apps.elsieng.com"><button id="blockButton">Apps</button></a>
+			
+			<!--
 			<h2>Elsie is
 			{{if .myProfile.Available}}
 				 available
@@ -13,13 +19,21 @@
 				not available
 			{{end}}
 			for work</h2>
-			<p>
-				<a href="{{.myProfile.Twitter}}">Twitter</a>
-			</p>
+			-->
+			
+			<div class="social">
+				<a href="{{.myProfile.Twitter}}"><img src="/public/img/twitter-hover.png" /></a>
+				<a href="{{.myProfile.Github}}"><img src="/public/img/github-hover.png" /></a>
+				<a href="{{.myProfile.Linkedin}}"><img src="/public/img/linkedin-hover.png" /></a>
+				<a href="{{.myProfile.Steam}}"><img src="/public/img/steam-hover.png" /></a>
+			</div>
 		</div>
 		{{range .thelist}}
 			<div id="project" style="background-color:{{.Brand}}">
-				<div class="image">
+				<div class="image">	
+					<span class="helper">
+					<img src="/public/img/{{.Id}}.png" />
+					</span>
 				</div>
 				<div class="description">
 					<h1>{{.Name}}</h1>

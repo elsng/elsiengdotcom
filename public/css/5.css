@@ -1,0 +1,17 @@
+#section0 #topimage{
+	top: 0px;
+	left: 0px;
+	height: 100%;
+}
+
+#section1 #topimage{
+	top: 50px;
+	left: 0;
+	height: 400px;
+}
+
+#section2 #topimage{
+	top: 60px;
+	left:0px;
+	height: 100%;
+}

@@ -1,0 +1,30 @@
+#section0 #topimage{
+	top: -550px;
+	left: -30px;
+	opacity: 1;
+	-webkit-transition: opacity ease-out 1s;
+	-moz-transition: opacity ease-out 1s;
+	-o-transition: opacity ease-out 1s;
+	transition: opacity ease-out 1s;
+}
+	#section0 #topimage:hover{
+		opacity: 0;
+		-webkit-transition: opacity ease-out 1s;
+		-moz-transition: opacity ease-out 1s;
+		-o-transition: opacity ease-out 1s;
+		transition: opacity ease-out 1s;
+	}
+#section1 #topimage{
+	top: -200px;
+	left: 200px;
+}
+#section1 #bottomimage{
+	padding: 50px 0;
+	height: 300px;
+}
+#section2 #topimage{
+	top: -120px;
+}
+#section2 #bottomimage{
+	height:300px;
+}
