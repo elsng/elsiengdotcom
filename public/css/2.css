@@ -1,6 +1,8 @@
 #section0 #topimage{
 	top:-530px;
 	left:30px;
+	position:relative;
+	width: auto;
 }
 #section1 #topimage{
 	top: -400px;
@@ -12,6 +14,7 @@
 	}
 #section1 #text{
 	width:500px;
+	padding: 60px 0;
 }
 
 @media	(max-width: 640px){

@@ -2,6 +2,7 @@
 {{set . "projectID" .cp.Id}}
 {{template "header.html" .}}
 <link rel="stylesheet" type="text/css" href="/public/css/{{.projectID}}.css">
+<link rel="shortcut icon" type="image/png" href="/public/img/{{.projectID}}-favicon.png">
 </head>
 <body>
 <div id="projectContainer">
@@ -25,7 +26,7 @@
 	<ul>
 	{{range .cp.Sections}}
 	<div id="section{{.Id}}" class="section">
-		<div id="text" class="container" style='
+		<div id="text" style='
 			{{if eq .Align "right"}}
 				float:right;
 			{{else if eq .Align "left"}}
@@ -52,7 +53,7 @@
 					<img src="/public/projects/{{.TopImage}}" />
 				{{end}}
 			</div>
-		</div>	
+		</div>
 	</div>
 	{{end}}
 	</ul>

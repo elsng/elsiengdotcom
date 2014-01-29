@@ -1,4 +1,4 @@
- html{
+html{
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 body{
@@ -82,17 +82,18 @@ button{
 		color: #8a969b;
 	}
 #project{
-	height: 415px;
+	height: auto;
+	min-height: 412px;
 	width: 100%;
 	color: white;
 	float:left;
 }
 	.image{
-		width: 300px;
-		height: 300px;
+		max-width: 200px;
+		height: 200px;
 		float:left;
 		margin-top:5%;
-		margin-left: 100px;
+		margin-left: 10%;
 	}
 		.image img{
 			display: block;
@@ -100,9 +101,10 @@ button{
 			margin: auto;
 		}
 	.description{
-		width: 500px;
+		width: 50%;
+		max-width: 500px;
 		float:left;
-		margin-left:150px;
+		margin-left:15%;
 		display: inline-block;
 		padding-top: 75px;
 	}
@@ -166,14 +168,17 @@ button{
 		.section:nth-child(even){
 			background-color: #F9F9F9;
 		}
-		
 		#text{
-			width:336px;
+			width:400px;
 			font-size: 15px;
 			z-index: 2;
 			position: relative;
+			line-height: 1.5em;
+			color: #717171;
+			margin: 60px 0 50px 10%;
 		}
 		#bottomimage{
+			min-width:300px;
 			width: auto;
 			height: auto;
 			max-height: 500px;
@@ -184,11 +189,10 @@ button{
 			z-index: 1;
 		}
 		#topimage{
+			min-width: 400px;
 			width:auto;
 			height: auto;
 			text-align:center;
-			overflow-y: hidden;
-			overflow-x: hidden;
 			position:relative;
 			z-index: 2;
 		}
@@ -239,7 +243,15 @@ button{
 		margin-bottom: 30px;
 	}
 	
-@media	(max-width: 640px){
+@media (max-width: 750px) and (min-width: 420px){
+	#project{
+		height: auto;
+		width: 100%;
+	}
+	.image{ margin: 30px 0 0 0; height: 250px;}
+	.description{ margin:50px 0 0 50px; width:300px;padding: 0 10px 40px 10px;}
+}
+@media	(max-width: 420px){
 	body { width: 100%; margin: 0; padding: 0;}
 	h1{ font-size: 28px;}
 	h2{ font-size: 20px; line-height: 1em;}
@@ -248,7 +260,7 @@ button{
 		height: auto;
 		width: 100%;
 	}
-	.image{ margin: 30px 0 0 0; }
+	.image{ width: 300px;margin: 30px 0 0 0; height: 250px;}
 	.description{ margin: 0; width: 300px;padding: 0 10px 40px 10px;}
 	
 	#projectContainer{
