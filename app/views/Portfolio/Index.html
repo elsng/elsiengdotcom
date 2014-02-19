@@ -23,6 +23,7 @@
 			
 			<div class="social">
 				<a href="{{.myProfile.Twitter}}"><img src="/public/img/twitter-hover.png" /></a>
+				<a href="{{.myProfile.Dribbble}}"><img src="/public/img/dribbble-hover.png" /></a>
 				<a href="{{.myProfile.Github}}"><img src="/public/img/github-hover.png" /></a>
 				<a href="{{.myProfile.Linkedin}}"><img src="/public/img/linkedin-hover.png" /></a>
 				<a href="{{.myProfile.Steam}}"><img src="/public/img/steam-hover.png" /></a>
@@ -38,7 +39,7 @@
 				<div class="description">
 					<h1>{{.Name}}</h1>
 					<p>{{.Gist}}</p>
-					<form action="/App/Project" method="GET">
+					<form action="/Portfolio/Project" method="GET">
 						<button type="submit" value="{{.Id}}" name="id">{{.Button}}</button>
 					</form>
 				</div>

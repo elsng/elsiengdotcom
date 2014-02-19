@@ -63,7 +63,7 @@ func perror(err error) {
     }
 }
 
-type App struct {
+type Portfolio struct {
 	*revel.Controller
 }
 
@@ -93,7 +93,7 @@ type projectItem struct {
 	Button	string
 }
 
-func (c App) Index() revel.Result {
+func (c Portfolio) Index() revel.Result {
     url := "http://dev.elsieng.com/data.json"
 
     res, err := http.Get(url)
@@ -173,7 +173,7 @@ type projectSection struct{
 	Align	string
 }
 
-func (c App) Project(id int) revel.Result {
+func (c Portfolio) Project(id int) revel.Result {
 	url := "http://dev.elsieng.com/data.json"
 
     res, err := http.Get(url)

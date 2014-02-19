@@ -1,0 +1,48 @@
+~
+~ revel! http://robfig.github.com/revel
+~
+INFO  2014/02/11 21:07:31 revel.go:292: Loaded module testrunner
+INFO  2014/02/11 21:07:31 revel.go:292: Loaded module static
+INFO  2014/02/11 21:07:31 run.go:57: Running elsiengdotcom (elsiengdotcom) in dev mode
+INFO  2014/02/11 21:07:31 harness.go:157: Listening on :3157
+INFO  2014/02/11 21:08:15 revel.go:292: Loaded module testrunner
+INFO  2014/02/11 21:08:15 revel.go:292: Loaded module static
+INFO  2014/02/11 21:08:15 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 49461...
+WARN  2014/02/12 02:19:44 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/02/12 03:28:36 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/02/12 03:29:56 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/02/12 17:19:59 static.go:61: File not found (/home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map): stat /home/elsieng/gocode/src/elsiengdotcom/public/js/jquery.min.map: no such file or directory 
+WARN  2014/02/15 02:17:03 static.go:69: Attempted directory listing of /home/elsieng/gocode/src/elsiengdotcom/public/css
+ERROR 2014/02/19 00:49:24 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:147: undefined: c
+app/controllers/app.go:229: undefined: c
+
+ERROR 2014/02/19 00:49:28 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:147: undefined: c
+app/controllers/app.go:229: undefined: c
+
+INFO  2014/02/19 00:49:34 revel.go:292: Loaded module testrunner
+INFO  2014/02/19 00:49:34 revel.go:292: Loaded module static
+INFO  2014/02/19 00:49:34 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 49461...
+ERROR 2014/02/19 00:50:35 build.go:79: # elsiengdotcom/app/controllers
+app/controllers/app.go:96: undefined: portfolio
+app/controllers/app.go:176: undefined: portfolio
+
+ERROR 2014/02/19 00:50:48 build.go:79: # elsiengdotcom/app/tmp
+app/tmp/main.go:31: cannot refer to unexported name controllers.portfolio
+app/tmp/main.go:31: undefined: "elsiengdotcom/app/controllers".portfolio
+
+INFO  2014/02/19 00:51:19 revel.go:292: Loaded module static
+INFO  2014/02/19 00:51:19 revel.go:292: Loaded module testrunner
+INFO  2014/02/19 00:51:19 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 49461...
+INFO  2014/02/19 00:51:58 revel.go:292: Loaded module testrunner
+INFO  2014/02/19 00:51:58 revel.go:292: Loaded module static
+INFO  2014/02/19 00:51:58 main.go:29: Running revel server
+Go to /@tests to run the tests.
+Listening on port 49461...
