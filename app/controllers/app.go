@@ -20,6 +20,7 @@ type Elsieng_info struct {
 
 type Project_info struct {
     Id	int
+    Title	string
     Name	string
     Gist	string
     Catchphrase	string
@@ -86,6 +87,7 @@ type projectList struct {
 
 type projectItem struct {
 	Id	int
+	Title	string
 	Name	string
 	Gist	string
 	Picture	string
@@ -134,6 +136,7 @@ func (c Portfolio) Index() revel.Result {
     		if i == project.Id{	
         		projectItem := projectItem{}
 				projectItem.Id = project.Id
+				projectItem.Title = project.Title
 				projectItem.Name = project.Name
 				projectItem.Gist = project.Gist
 				projectItem.Picture = project.Picture
@@ -151,6 +154,7 @@ func (c Portfolio) Index() revel.Result {
 
 type currentProject struct{
 	Id	int
+	Title	string
 	Name	string
 	Brand	string
 	Catchphrase	string
@@ -173,7 +177,7 @@ type projectSection struct{
 	Align	string
 }
 
-func (c Portfolio) Project(id int) revel.Result {
+func (c Portfolio) Project(name string) revel.Result {
 	url := "http://dev.elsieng.com/data.json"
 
     res, err := http.Get(url)
@@ -196,8 +200,9 @@ func (c Portfolio) Project(id int) revel.Result {
     
     for i, project := range data.Elsieng.Project{
     	
-        if (i == id){
+        if (project.Name == name){
         	cp.Id = project.Id
+        	cp.Title = project.Title
         	cp.Name = project.Name
         	cp.Brand = project.Brand
         	cp.Catchphrase = project.Catchphrase
@@ -224,6 +229,7 @@ func (c Portfolio) Project(id int) revel.Result {
 			
 			cp.Sections = cpsections
         }
+        i++
     }
     
 	return c.Render(cp)

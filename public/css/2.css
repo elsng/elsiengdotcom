@@ -1,36 +1,36 @@
-#section0 #topimage{
+#section4 #topimage{
 	top:-530px;
 	left:30px;
 	position:relative;
 	width: auto;
 }
-#section1 #topimage{
+#section7 #topimage{
 	top: -400px;
 	left:10px;
 	-webkit-transition: all .2s ease-in-out;
 }
-	#section1 #topimage:hover{
+	#section7 #topimage:hover{
 		-webkit-transform: scale(1.1);
 	}
-#section1 #text{
+#section7 #text{
 	width:500px;
 	padding: 60px 0;
 }
 
 @media	(max-width: 640px){
-	#section0 #text{
+	#section4 #text{
 		width: 300px;
 	}
-	#section1 #text{
+	#section7 #text{
 		width:300px;
 	}
-	#section0 #topimage{
+	#section4 #topimage{
 		left: 0;
 	}
-	#section0 #topimage img{
+	#section4 #topimage img{
 		margin-left: 500px;
 	}
-	#section0 #bottomimage img{
+	#section4 #bottomimage img{
 		margin-left: -100px;
 	}
 }

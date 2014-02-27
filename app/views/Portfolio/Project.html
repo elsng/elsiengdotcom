@@ -1,4 +1,4 @@
-{{set . "title" .cp.Name}}
+{{set . "title" .cp.Title}}
 {{set . "projectID" .cp.Id}}
 {{template "header.html" .}}
 <link rel="stylesheet" type="text/css" href="/public/css/{{.projectID}}.css">
@@ -7,7 +7,7 @@
 <body>
 <div id="projectContainer">
 	<div id="header" style="background-color:{{ .cp.Brand}}">
-		<h2>{{ .cp.Name }}</h2>
+		<h2>{{ .cp.Title }}</h2>
 		{{ if eq .cp.Partner ""}}
 		{{else}}
 			with <img src="/public/img/partners/{{ .cp.Partner}}" />
@@ -26,6 +26,8 @@
 	<ul>
 	{{range .cp.Sections}}
 	<div id="section{{.Id}}" class="section">
+		{{if eq .Text ""}}
+		{{else}}
 		<div id="text" style='
 			{{if eq .Align "right"}}
 				float:right;
@@ -42,7 +44,14 @@
 					<a href="{{ .Href}}"><button id="hrefButton">{{ .Hreftext}}</button></a>
 				{{end}}
 		</div>
-		<div id="bottomimage">
+		{{end}}
+		<div id="bottomimage" style='
+				{{if eq .Text ""}}
+					width: 800px;
+					margin: 0 auto;
+					padding: 40px 0;
+				{{end}}
+			'>
 			{{if eq .BottomImage ""}}
 			{{else}}
 				<img src="/public/projects/{{.BottomImage}}" />
